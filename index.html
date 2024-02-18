@@ -1,0 +1,237 @@
+<!--
+------------------ Minecraft server Template --------------------
+------------------ Template HTML5 Minecraft ---------------------
+------------------ Created by Rodry -----------------------------
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Template HTML5</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- My CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body> 
+    
+        <div class="container-fluid">
+            <header>
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <a class="navbar-brand" href="#">Vonix Network</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+                                </li>
+                                    <li class="nav-item active">
+                                    <a class="nav-link" href="locations.html">Locations/IPS<span class="sr-only"></span></a>
+                                </li>
+                                <!--<li class="nav-item">
+                                    <a class="nav-link" href="news.html">News</a>
+                                </li>-->
+                                <!--<li class="nav-item">
+                                    <a class="nav-link" href="map.html">Dynmap</a>
+                                </li>-->
+                                <!--<li class="nav-item">
+                                    <a class="nav-link" href="vip.html">VIP</a>
+                                </li>-->
+                                <!--<li class="nav-item">
+                                    <a class="nav-link" href="#">Forums</a>
+                                </li>-->
+                                <!--<li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>-->
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+        <div class="container">
+
+        <div id="featured">
+            <div class="featured-in">
+                <div class="row">
+                    <div class="col-md-12 col-lg-5">
+                        <h1>Server Info</h1>
+                        <div id="info-server">
+                            <p><i class="fas fa-globe-europe"></i> Host: <span class="server">play.vonix.network</span></p>
+                            <p><i class="fas fa-wrench"></i> Bedrock Port: <span class="serverVersion">25738</span></p>
+                            <p><i class="fas fa-wrench"></i> Version: <span class="serverVersion">1.20.4</span></p>
+                            <p><i class="fas fa-campground"></i> Mode: <span class="serverMode">Creative + Survival</span></p>
+                            <!--<p><i class="fas fa-map-marked-alt"></i> Dynmap: <a target="_blank" class="serverMap" href="/map.html">View Map</a></p>-->
+                            <p><i class="fab fa-discord"></i> Discord: <a class="serverDiscord" target="_blank" href="https://discord.gg/RkwW7phKVb">Open discord</a></p>
+                            <p><div id="rest">Loading ...</div></p>
+                            <p>Lag? <a href="locations.html">Try Other Hosts</a></p>
+                        </div>
+                    </div>
+                    <div class="featured-img col-md-12 col-lg-7">
+                        <img src="images/featured.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<div id="content-all">
+            <div class="row">
+                <div id="sidebar" class="column col-sm-12 col-md-12 col-lg-3 order-1 order-lg-0">
+                    <div class="side col-md-12">
+                        <div class="sidebar-in">
+                            <h2 class="forum"><a href="#" target="_blank">Visit now our forums</a></h2>
+                            <a href="#" target="_blank"><img src="images/forum.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="side col-md-12">
+                        <div class="sidebar-in">
+                            <h2>Title</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat excepturi quasi molestiae. A optio aliquid totam, enim illo officia nihil, rerum provident ducimus dolores, assumenda ex ipsam nobis ad nam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias libero aut unde debitis earum magnam nisi quia id minima atque voluptatem natus accusamus aliquam tempora, hic est ut ducimus veritatis?</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="content" class="column col-sm-12 col-md-12 col-lg-9 order-0 order-lg-1">
+                    <div class="post col-md-12">
+                        <div class="content-in">
+                            <h2>this is a test title for your server</h2>
+                            <img src="images/118.jpg" alt="">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat excepturi quasi molestiae. A optio aliquid totam, enim illo officia nihil, rerum provident ducimus dolores, assumenda ex ipsam nobis ad nam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias libero aut unde debitis earum magnam nisi quia id minima atque voluptatem natus accusamus aliquam tempora, hic est ut ducimus veritatis?</p>
+                            <div class="view-more">
+                                <a class="button btn-lg btn-warning" href="post.html">View More</a>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post col-md-12">
+                        <div class="content-in">
+                            <h2>this is a test title for your server</h2>
+                            <div class="video-responsive">
+                                <iframe src="https://www.youtube.com/embed/MmB9b5njVbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat excepturi quasi molestiae. A optio aliquid totam, enim illo officia nihil, rerum provident ducimus dolores, assumenda ex ipsam nobis ad nam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias libero aut unde debitis earum magnam nisi quia id minima atque voluptatem natus accusamus aliquam tempora, hic est ut ducimus veritatis?</p>
+                            <div class="view-more">
+                                <a class="button btn-lg btn-warning" href="post.html">View More</a>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post col-md-12">
+                        <div class="content-in">
+                            <h2>this is a test title for your server</h2>
+                            <img src="images/quets.jpg" alt="">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat excepturi quasi molestiae. A optio aliquid totam, enim illo officia nihil, rerum provident ducimus dolores, assumenda ex ipsam nobis ad nam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias libero aut unde debitis earum magnam nisi quia id minima atque voluptatem natus accusamus aliquam tempora, hic est ut ducimus veritatis?</p>
+                            <div class="view-more">
+                                <a class="button btn-lg btn-warning" href="post.html">View More</a>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="pagination">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+              </nav>
+        </div>-->
+
+    </div>
+
+
+        <footer id="social" class="container-fluid">
+            <center>
+                <h3>Plugins / Features</h3>
+            </center>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="links">
+                            <div class="plugin-card">
+                                <a href="https://github.com/Slimefun/Slimefun4">Slimefun</a>
+                                <span>Use command "/sf guide" in game to get a book of custom and overpowered items!</span>
+                            </div>
+                            <br>
+                            <div class="plugin-card">
+                                <a href="https://www.spigotmc.org/resources/1-20-2-revive-plugin.105340/">Revive</a>
+                                <span>When a player dies, they can be revived with a golden apple, if they die complelty their stuff is put in a chest</span>
+                            </div>
+                            <br>
+                            <div class="plugin-card">
+                                <a href="https://www.spigotmc.org/resources/stargate.109355/">StarGate</a>
+                                <span>We have portals! Click above for more information, please ask admin if you need help, we are still learning too though.</span>
+                            </div>
+                            <!--<a target="_blank" href="#">Discord</a>-->
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="links">
+                            <div class="plugin-card">
+                                <a href="https://www.spigotmc.org/resources/ironelevators-1-4-6-1-20-x.19451/">Iron Elevators</a>
+                                <span>Use Iron / Polished Andesite Blocks to Make Jump/Crouch Elevators!</span>
+                            </div>
+                            <br>
+                            <div class="plugin-card">
+                                <a href="https://www.spigotmc.org/resources/smoothtimber.39965/">SmoothTimber</a>
+                                <span>No need to spend 30 minutes gathering wood before a long mining trip, pickaxes knock trees down in one go!</span>
+                            </div>
+                            <br>
+                            <div class="plugin-card">
+                                <a href="https://www.spigotmc.org/resources/smoothtimber.39965/">BlockLocker</a>
+                                <span>No need to worry about your chest getting destroyed or your items stolen, place a sign on almost anything interactable to lock it! Add people by clicking the sign and changing their name.</span>
+                            </div>
+                            <!--<a target="_blank" href="#">Discord</a>-->
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <!--<p>We Are a server aimed ait providing a safe and memorable experience, with extensive range of plugins to make your experience more then perfect!</p>-->
+                        <div class="links">
+                            <div class="plugin-card">
+                                <a href="https://www.spigotmc.org/resources/%E3%80%90ultimatehomes%E3%80%91-highly-configurable-player-sethome-system-1-8-1-20-x.64210/">Ultimate Homes</a>
+                                <span>Never Get Lost! Use commands:<br>/sethome (homename) - Set Home<br>/home (homename) - TP to Home<br>/delhome (homename) - Delete Home</span>
+                            </div>
+                            <br>
+                            <div class="plugin-card">
+                                <a href="https://geysermc.org/">GeyserMC</a>
+                                <span>Never worry about what platform your friends are on, we support Java, Bedrock, Mobile, Xbox, Playstation, and Nintendo Switch!</span>
+                            </div>
+                            <!--<a target="_blank" href="#">Discord</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+    <script src="js/script.js"></script>
+    <!-- Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</body>
+</html>

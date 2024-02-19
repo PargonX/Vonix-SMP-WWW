@@ -71,7 +71,7 @@ header {
 }
 
 .navbar-nav a {
-    background-image: url("../images/sign.png");
+    //background-image: url("../images/sign.png");
     margin: 0 10px;
     padding: 10px 20px!important;
     font-weight: bold;

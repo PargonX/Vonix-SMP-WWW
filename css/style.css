@@ -324,7 +324,7 @@ footer .col-md-12 {
 }
 
 #social a {
-    background-color: rgba(0, 0, 0, 0.5);
+    //background-color: rgba(0, 0, 0, 0.5);
     color: white;
     display: block;
     font-weight: bold;

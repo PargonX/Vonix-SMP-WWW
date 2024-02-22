@@ -32,10 +32,12 @@ h1, h2, h3 {
 }
 
 .plugin-card {
+    background-color: #aa00aa7e;
     color: white;
     width: 100%;
     font-family: "Minecrafter";
     font-size: 2em;
+    box-shadow: 0px 0px 30px 10px #AA00AA;
     //background-image: url("../images/sign.png")
 }
 

@@ -1,4 +1,4 @@
-var url = "https://api.minetools.eu/ping/play.vonix.network/25738";
+var url = "https://api.minetools.eu/ping/play.vonix.network/25565";
 // example = "https://api.minetools.eu/ping/youtserver.com/12345"
 
 $.getJSON(url, function(r) {
